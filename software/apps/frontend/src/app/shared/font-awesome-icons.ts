@@ -2,9 +2,14 @@
 // list of icons for use in an application
 
 import { IconDefinition } from "@fortawesome/angular-fontawesome";
-import { faCartShopping, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faCartShopping, faTruckFast, faUser } from "@fortawesome/free-solid-svg-icons";
 
 export const fontAwsomeIcons: IconDefinition[] = [
     faUser,
-    faCartShopping
+    faCartShopping,
+    faFacebook,
+    faYoutube,
+    faTruckFast,
+    faTwitter
 ];
