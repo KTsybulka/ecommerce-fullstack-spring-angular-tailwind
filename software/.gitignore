@@ -42,3 +42,22 @@ Thumbs.db
 .nx/workspace-data
 
 .angular
+
+
+# Ignore dependencies
+node_modules/
+
+# Ignore build outputs
+target/
+dist/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore IDE files
+.vscode/
+.idea/
